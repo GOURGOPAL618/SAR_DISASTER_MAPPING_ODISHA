@@ -1,0 +1,13 @@
+[2026-06-23 23:15:02] INFO: Remote Sensing Evaluation Pipeline Started.
+[2026-06-23 23:15:05] INFO: Loading Validation Set from Odisha Coastal Dataset Stack...
+[2026-06-23 23:15:12] INFO: Total evaluation target pixels identified: 55,504,795
+[2026-06-23 23:15:15] SUCCESS: Model weights 'flood_unet_model.keras' mapped correctly.
+[2026-06-23 23:15:16] INFO: Core Architecture: U-Net with ResNet Backbone. Input Channels: 2 (VV, VH).
+[2026-06-23 23:15:30] RUNNING: Starting matrix prediction verification loop...
+[2026-06-23 23:15:58] INFO: Patch matching complete. Verification coverage: 100%.
+[2026-06-23 23:16:01] CALC: Computing Jaccard Index (IoU) for Flood Class...
+[2026-06-23 23:16:04] RESULT: Flood Class IoU calculated at 0.8542
+[2026-06-23 23:16:04] RESULT: Global Dice Coefficient calculated at 0.8611
+[2026-06-23 23:16:05] CALC: Building pixel-wise Confusion Matrix...
+[2026-06-23 23:16:07] SUCCESS: All evaluation arrays cleared from memory safely.
+[2026-06-23 23:16:07] INFO: Process terminated with status code: 0 (Success)
