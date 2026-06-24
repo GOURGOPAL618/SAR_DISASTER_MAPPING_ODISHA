@@ -1,0 +1,22 @@
+{
+  "regional_mask_id": "ODISHA-COASTAL-HYDRO-v4",
+  "permanent_water_features": [
+    {
+      "feature_name": "Chilika Lagoon Core Basin",
+      "centroid_coordinates": [19.72, 85.32],
+      "baseline_backscatter_sigma_naught_db": -24.5,
+      "exclusion_zone": true
+    },
+    {
+      "feature_name": "Mahanadi Estuary Main Trunk",
+      "centroid_coordinates": [20.29, 86.72],
+      "baseline_backscatter_sigma_naught_db": -22.1,
+      "exclusion_zone": true
+    }
+  ],
+  "anomaly_detection_thresholds": {
+    "specular_water_max_db": -18.0,
+    "soil_saturation_trigger_db": -12.5,
+    "log_ratio_anomaly_delta_db": -6.0
+  }
+}

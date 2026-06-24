@@ -1,0 +1,22 @@
+{
+  "mission_id": "SENTINEL-1",
+  "payload_instrument": "C-SAR",
+  "operational_mode": "Interferometric Wide Swath (IW)",
+  "product_type": "Ground Range Detected (GRD)",
+  "acquisition_geometry": {
+    "polarization": "VV",
+    "incidence_angle_range_degrees": [29.1, 46.0],
+    "orbit_direction": "Descending"
+  },
+  "radiometric_calibration_envelope": {
+    "target_coefficient": "Sigma-Naught (σ⁰)",
+    "speckle_filter": "Refined Lee Filter (Kernel Size: 7x7)",
+    "spatial_resolution_meters": 10.0,
+    "pixel_spacing_meters": 5.0
+  },
+  "geospatial_bounds": {
+    "target_sector": "Odisha Coastal Drainage Basin",
+    "coordinate_reference_system": "EPSG:4326",
+    "spatial_transform_affine_coefficients": [0.0000898311, 0.0, 84.50, 0.0, -0.0000898311, 20.50]
+  }
+}
