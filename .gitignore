@@ -1,1 +1,59 @@
 
+# ==============================================================================
+# MISSION OPERATIONAL REPOSITORY FILTER MATRIX (.gitignore)
+# Project: Spaceborne Multi-Temporal SAR Inundation Mapping Pipeline
+# Architecture Lead: GOURAGOPAL MOHAPATRA (github.com/GOURGOPAL618)
+# ==============================================================================
+
+# 1. Earth Observation Sensor & Geospatial Data Trunks (Heavy Imagery)
+# ------------------------------------------------------------------------------
+# Block raw spaceborne granules, full swaths, and multi-temporal raster cache
+*.tif
+*.tiff
+*.vrt
+*.img
+*.nc
+# Exception: Allow explicit styled layers if manually committed for map rendering
+# !outputs/plots/odisha_final_flood_map.png
+
+# 2. Deep Learning Neural Framework Weights & Core Checkpoints
+# ------------------------------------------------------------------------------
+# Block heavy serialized model states, gradient matrices, and h5 matrices
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pkl
+*.pickle
+# Ignore local model output directory tracking blocks
+**/models/
+**/checkpoints/
+**/logs/
+flood_unet_model.keras
+
+# 3. System Runtime Execution Cache & Intermediary Tiling Buffers
+# ------------------------------------------------------------------------------
+# Block Python bytecode execution cache and temporary patch arrays
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+**/data/patches/
+**/data/raw_granules/
+
+# 4. Local Environment Controls & Token Secret Files
+# ------------------------------------------------------------------------------
+# Block infrastructure state configurations and platform credentials
+.env
+.venv
+env/
+venv/
+ENV/
+.vscode/
+.idea/
+
+# 5. Native OS Metadata Overhead
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
