@@ -1,11 +1,19 @@
-<!--
-=====================================================================
-BADGES: paste your ORIGINAL badge block here, exactly as it is today.
-Do not edit it. Everything below is the rewritten body of the README.
-=====================================================================
--->
 
 # ◈ SAR-DISASTER-MAPPING-ODISHA ◈
+
+![Doc ID](https://img.shields.io/badge/DOC%20ID-S1--RS--DL--FLOOD--001-0a0a1a?style=for-the-badge&labelColor=00BFFF&logoColor=white) ![Mission ID](https://img.shields.io/badge/MISSION%20ID-OM--ODISHA--S1--UNET--02-0a0a1a?style=for-the-badge&labelColor=003087&logoColor=white) ![Classification](https://img.shields.io/badge/STATUS-TECHNICAL%20RESTRICTED%20%7C%20V1.0%20PRODUCTION%20LEAD-8B0000?style=for-the-badge&logoColor=white)
+
+![Sentinel-1 C-Band](https://img.shields.io/badge/INSTRUMENT-Sentinel--1%20C--Band%20SAR-00BFFF?style=for-the-badge&logo=satellite&logoColor=white&labelColor=001f3f) ![GRD Product](https://img.shields.io/badge/PRODUCT%20TYPE-GRD%20%7C%20Ground%20Range%20Detected-0080FF?style=for-the-badge&labelColor=001a33&logoColor=white) ![VV Polarization](https://img.shields.io/badge/POLARIZATION-VV%20Single%20Pol%20%7C%20Sigma%20Naught%20%CF%83%E2%81%B0-0066CC?style=for-the-badge&labelColor=001a33&logoColor=white) ![ESA Copernicus](https://img.shields.io/badge/PROGRAMME-ESA%20Copernicus%20Space%20Component-003087?style=for-the-badge&labelColor=00194d&logoColor=white)
+
+![Deep Learning](https://img.shields.io/badge/ARCHITECTURE-U--Net%20FCN%20Semantic%20Segmentation-7B2FBE?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=1a0033) ![Framework](https://img.shields.io/badge/FRAMEWORK-TensorFlow%20%2F%20Keras%20API-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=2a1800) ![Tensor Format](https://img.shields.io/badge/TENSOR%20GEOMETRY-256%C3%97256%C3%973%20%7C%20Three--Channel%20Input-9B30FF?style=for-the-badge&labelColor=1a0033&logoColor=white) ![Dice Loss](https://img.shields.io/badge/LOSS%20FUNCTION-Sorenson--Dice%20%7C%20%CE%B3%3D1.0%20Laplace%20Smooth-FF6600?style=for-the-badge&labelColor=2a1000&logoColor=white) ![Stabilizer](https://img.shields.io/badge/STABILIZATION-Log--Ratio%20%CE%94%CF%83%E2%81%B0%20%7C%20%CE%B5%3D10%E2%81%BB%E2%81%B5%20Guard-CC3300?style=for-the-badge&labelColor=1f0000&logoColor=white)
+
+![Dice Score](https://img.shields.io/badge/DICE%20COEFFICIENT-0.8580%20%E2%86%94%200.8650%20%7C%20Highly%20Stable-006400?style=for-the-badge&labelColor=001a00&logoColor=white) ![Mean Dice](https://img.shields.io/badge/MEAN%20DICE%20%CE%BC-0.8611%20%7C%20Production%20Certified-008000?style=for-the-badge&labelColor=001a00&logoColor=white) ![mIoU Validated](https://img.shields.io/badge/INUNDATION%20CLASS%20IoU-0.8542%20%7C%20Operationally%20Verified-009900?style=for-the-badge&labelColor=001a00&logoColor=white) ![BG Precision](https://img.shields.io/badge/BACKGROUND%20PRECISION-0.9820%20%E2%86%94%200.9910%20%7C%20Zero%20Leakage-005500?style=for-the-badge&labelColor=001a00&logoColor=white)
+
+![Compute Platform](https://img.shields.io/badge/EXECUTION%20PLATFORM-Edge%20Compute%20%7C%20Local%20Shared--Memory%20Arch-1a1a2e?style=for-the-badge&labelColor=0a0a1a&logoColor=white) ![EPSG 4326](https://img.shields.io/badge/REFERENCE%20SYSTEM-WGS%2084%20%7C%20EPSG%3A4326%20%7C%20Affine%20Locked-1A6B3A?style=for-the-badge&labelColor=0a1f0a&logoColor=white) ![QGIS](https://img.shields.io/badge/GIS%20ENGINE-QGIS%20%7C%20Discrete%20Binary%20Render%20Mode-589632?style=for-the-badge&logo=qgis&logoColor=white&labelColor=1a2a00) ![SAR Processing](https://img.shields.io/badge/DOMAIN-Spaceborne%20SAR%20%7C%20Coastal%20Inundation%20Mapping-CC3300?style=for-the-badge&labelColor=1f0000&logoColor=white)
+
+![Manual ID](https://img.shields.io/badge/MANUAL%20ID-OM--ODISHA--S1--UNET--02-1a1a2e?style=flat-square&labelColor=0d0d1f&logoColor=white) ![Version](https://img.shields.io/badge/VERSION-V1.0%20Comprehensive%20Regional%20Master-1a1a2e?style=flat-square&labelColor=0d0d1f) ![Classification](https://img.shields.io/badge/CLASSIFICATION-Operational%20Technical%20Manual-8B0000?style=flat-square&labelColor=2a0000) ![Date](https://img.shields.io/badge/DATE-June%2024%2C%202026-2c2c54?style=flat-square&labelColor=0d0d2a)
+
+![divider](https://img.shields.io/badge/%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81%E2%94%81-0a0a1a?style=flat-square)
 
 ### Spaceborne Synthetic Aperture Radar · Deep Learning Inundation Classification
 
